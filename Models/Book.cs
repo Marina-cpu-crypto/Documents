@@ -11,7 +11,7 @@
         public bool IsReadOrNot { get; set; } = false; //Прочтена или нет
         public string Review { get; set; } = ""; //Пользовательские заметки, рецензия
 
-        public Book(string name, string author, string jenre, string description)
+        public Book(string name, string author, string genre, string description)
         {
             Id = Guid.NewGuid();
             Name = name;

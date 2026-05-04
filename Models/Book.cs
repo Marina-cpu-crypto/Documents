@@ -5,7 +5,7 @@
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }
-        public string Jenre { get; set; } //Жанр
+        public string Genre { get; set; } //Жанр
         public string Description { get; set; }
         //public DateOnly Date { get; set; } =???   //Дата (чего? Написания, добавления?)
         public bool IsReadOrNot { get; set; } = false; //Прочтена или нет
@@ -16,7 +16,7 @@
             Id = Guid.NewGuid();
             Name = name;
             Author = author;
-            Jenre = jenre;
+            Genre = Genre;
             Description = description;
         }
 

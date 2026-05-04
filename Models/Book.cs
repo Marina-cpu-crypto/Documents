@@ -16,7 +16,7 @@
             Id = Guid.NewGuid();
             Name = name;
             Author = author;
-            Genre = Genre;
+            Genre = genre;
             Description = description;
         }
 
